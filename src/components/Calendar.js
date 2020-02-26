@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Menu from './Menu';
 
 class Calendar extends Component {
 
@@ -6,7 +7,8 @@ class Calendar extends Component {
   render() {
     return (
         <div>
-          Calendar
+          <Menu />
+          <h2>Calendar</h2>
         </div>
     );
   }
