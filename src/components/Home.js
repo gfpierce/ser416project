@@ -14,7 +14,7 @@ class Home extends Component {
     return (
       <div>
         <Menu />
-        <CardDeck style={{ padding: 20 }}>
+        <CardDeck style={{ padding: 40 }}>
           <Card style={{ alignItems: "center", textAlign: "center" }}>
             <Card.Body>
               <Card.Title>Home Care</Card.Title>
