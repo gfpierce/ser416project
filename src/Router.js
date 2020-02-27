@@ -22,7 +22,6 @@ import StaffClock from "./components/StaffClock";
 import StaffHome from "./components/StaffHome";
 import StaffSchedule from "./components/StaffSchedule";
 
-
 const Router = () => (
   <BrowserRouter>
     <Switch>
@@ -35,20 +34,20 @@ const Router = () => (
       <Route path="/register" component={EventRegister} />
       <Route path="/homecare" component={HomeCare} />
       <Route path="/manager" component={ManagerHome} />
-      <Route path="/manager/eventscheduler" component={ManagerEventScheduler} />
+      <Route path="/managereventscheduler" component={ManagerEventScheduler} />
       <Route
-        path="/manager/equipmentreserve"
+        path="/managerequipmentreserve"
         component={ManagerEquipmentReservation}
       />
-      <Route path="/manager/staffscheduler" component={ManagerStaffScheduler} />
+      <Route path="/managerstaffscheduler" component={ManagerStaffScheduler} />
       <Route path="/payment" component={Payment} />
       <Route path="/sent" component={Sent} />
       <Route path="/shuttleschedule" component={ShuttleSchedule} />
       <Route path="/shuttletimes" component={ShuttleTimes} />
       <Route path="/staff" component={StaffHome} />
-      <Route path="/staff/availability" component={StaffAvailability} />
-      <Route path="/staff/clock" component={StaffClock} />
-      <Route path="/staff/schedule" component={StaffSchedule} />
+      <Route path="/staffavailability" component={StaffAvailability} />
+      <Route path="/staffclock" component={StaffClock} />
+      <Route path="/staffschedule" component={StaffSchedule} />
     </Switch>
   </BrowserRouter>
 );

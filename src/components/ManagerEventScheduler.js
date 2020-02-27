@@ -7,7 +7,7 @@ class ManagerEventScheduler extends Component {
     return (
       <div>
         <Menu />
-        <h2>Manager Equipment Reservation</h2>
+        <h2>Manager Event Scheduler</h2>
         <Footer />
       </div>
     );
