@@ -10,6 +10,7 @@ import Equipment from "./components/Equipment";
 import EventRegister from "./components/EventRegister";
 import HomeCare from "./components/HomeCare";
 import ManagerEquipmentReservation from "./components/ManagerEquipmentReservation";
+import ManagerEventConfirmed from "./components/ManagerEventConfirmed";
 import ManagerEventScheduler from "./components/ManagerEventScheduler";
 import ManagerHome from "./components/ManagerHome";
 import ManagerStaffScheduler from "./components/ManagerStaffScheduler";
@@ -34,6 +35,7 @@ const Router = () => (
       <Route path="/register" component={EventRegister} />
       <Route path="/homecare" component={HomeCare} />
       <Route path="/manager" component={ManagerHome} />
+      <Route path="/managereventconfirmed" component={ManagerEventConfirmed} />
       <Route path="/managereventscheduler" component={ManagerEventScheduler} />
       <Route
         path="/managerequipmentreserve"
