@@ -14,12 +14,14 @@ import ManagerEventScheduler from "./components/ManagerEventScheduler";
 import ManagerHome from "./components/ManagerHome";
 import ManagerStaffScheduler from "./components/ManagerStaffScheduler";
 import Payment from "./components/Payment";
-import ShuttleRegister from "./components/ShuttleRegister";
+import Sent from "./components/Sent";
 import ShuttleSchedule from "./components/ShuttleSchedule";
+import ShuttleTimes from "./components/ShuttleTimes";
 import StaffAvailability from "./components/StaffAvailability";
 import StaffClock from "./components/StaffClock";
 import StaffHome from "./components/StaffHome";
 import StaffSchedule from "./components/StaffSchedule";
+
 
 const Router = () => (
   <BrowserRouter>
@@ -40,8 +42,9 @@ const Router = () => (
       />
       <Route path="/manager/staffscheduler" component={ManagerStaffScheduler} />
       <Route path="/payment" component={Payment} />
-      <Route path="/shuttleregister" component={ShuttleRegister} />
+      <Route path="/sent" component={Sent} />
       <Route path="/shuttleschedule" component={ShuttleSchedule} />
+      <Route path="/shuttletimes" component={ShuttleTimes} />
       <Route path="/staff" component={StaffHome} />
       <Route path="/staff/availability" component={StaffAvailability} />
       <Route path="/staff/clock" component={StaffClock} />

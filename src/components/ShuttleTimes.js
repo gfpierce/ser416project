@@ -3,8 +3,9 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 import CardDeck from "react-bootstrap/CardDeck";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
-class Equipment extends Component {
+class ShuttleTimes extends Component {
   render() {
     return (
       <div>
@@ -12,29 +13,25 @@ class Equipment extends Component {
         <CardDeck style={{ padding: 40 }}>
           <Card style={{ alignItems: "center", textAlign: "center" }}>
             <Card.Body>
-              <Card.Title>Folding Chairs</Card.Title>
-              <Card.Text>
-                Perfectly mobile and surprisingly comfortable
-              </Card.Text>
+              <Card.Title>Downtown Stop</Card.Title>
+              <Card.Text>8:55 AM</Card.Text>
             </Card.Body>
           </Card>
           <Card style={{ alignItems: "center", textAlign: "center" }}>
             <Card.Body>
-              <Card.Title>Projector</Card.Title>
-              <Card.Text>Helps display images and video</Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ alignItems: "center", textAlign: "center" }}>
-            <Card.Body>
-              <Card.Title>Sound System</Card.Title>
-              <Card.Text>Amplification for sound needs</Card.Text>
+              <Card.Title>Suburbs Stop</Card.Title>
+              <Card.Text>9:15 AM</Card.Text>
             </Card.Body>
           </Card>
         </CardDeck>
+        <div style={{ textAlign: "center" }}>
+          <Button href="/">Go back home</Button>
+        </div>
+
         <Footer />
       </div>
     );
   }
 }
 
-export default Equipment;
+export default ShuttleTimes;

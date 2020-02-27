@@ -36,7 +36,7 @@ class HomeCare extends Component {
                 <a href="/confirmed">1</a>
               </td>
               <td>
-                <a href="/">2</a>
+                <a href="/confirmed">2</a>
               </td>
             </tr>
             <tr style={{ textAlign: "center" }}>
