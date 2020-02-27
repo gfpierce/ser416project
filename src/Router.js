@@ -19,6 +19,7 @@ import Sent from "./components/Sent";
 import ShuttleSchedule from "./components/ShuttleSchedule";
 import ShuttleTimes from "./components/ShuttleTimes";
 import StaffAvailability from "./components/StaffAvailability";
+import StaffAvailConfirm from "./components/StaffAvailConfirm";
 import StaffClock from "./components/StaffClock";
 import StaffHome from "./components/StaffHome";
 import StaffSchedule from "./components/StaffSchedule";
@@ -48,6 +49,7 @@ const Router = () => (
       <Route path="/shuttletimes" component={ShuttleTimes} />
       <Route path="/staff" component={StaffHome} />
       <Route path="/staffavailability" component={StaffAvailability} />
+      <Route path="/staffavailconfirm" component={StaffAvailConfirm} />
       <Route path="/staffclock" component={StaffClock} />
       <Route path="/staffschedule" component={StaffSchedule} />
     </Switch>

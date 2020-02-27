@@ -4,15 +4,15 @@ import Footer from "./Footer";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 
-class ManagerEventConfirmed extends Component {
+class StaffAvailConfirm extends Component {
   render() {
     return (
       <div>
         <Menu />
         <Jumbotron>
-          <h2>Event Details Confirmed!</h2>
-          <p>Message sent to requestor.</p>
-          <Button href="/manager">Go back home</Button>
+          <h2>Availability confirmed!</h2>
+          <p>Your schedule has been updated</p>
+          <Button href="/staff">Go back home</Button>
         </Jumbotron>
         <Footer />
       </div>
@@ -20,4 +20,4 @@ class ManagerEventConfirmed extends Component {
   }
 }
 
-export default ManagerEventConfirmed;
+export default StaffAvailConfirm;
