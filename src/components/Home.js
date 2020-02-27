@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 
 import Menu from "./Menu";
 import Footer from "./Footer";
@@ -58,8 +59,10 @@ class Home extends Component {
             </Card.Body>
           </Card>
         </CardDeck>
-        <Jumbotron>
-
+        <Jumbotron style={{ alignItems: "center", textAlign: "center" }}>
+          <h2>See our event calendar!</h2>
+          <p>We always have great events going on at the community center!</p>
+          <Button href="/calendar">View Calendar</Button>
         </Jumbotron>
 
         <Footer />
