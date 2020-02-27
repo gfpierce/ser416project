@@ -7,6 +7,9 @@ class Menu extends Component {
             <a href="/">Home </a>
             <a href="/calendar">Calendar </a>
             <a href="/contact">Contact </a>
+            <a href="/staff">Staff Login </a>
+            <a href="/manager">Manager Login</a>
+            <a href="/payment">Payment</a>
         </nav>
     );
   }
