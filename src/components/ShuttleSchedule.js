@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Menu from "./Menu";
+import Footer from "./Footer";
 
 class ShuttleSchedule extends Component {
   render() {
     return (
-        <h2>ShuttleSchedule</h2>
+      <div>
+        <Menu />
+        <h2>Shuttle Schedule</h2>
+        <Footer />
+      </div>
     );
   }
-  
 }
 
 export default ShuttleSchedule;

@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Menu from "./Menu";
+import Footer from "./Footer";
 
 class StaffAvailability extends Component {
   render() {
     return (
-        <h2>StaffAvailability</h2>
+      <div>
+        <Menu />
+        <h2>Staff Availability</h2>
+        <Footer />
+      </div>
     );
   }
-  
 }
 
 export default StaffAvailability;

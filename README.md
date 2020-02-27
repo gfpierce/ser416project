@@ -1,6 +1,6 @@
 # ser416project
 
-This is a project for SER 416 at Arizona State University. It's a prototype of the Best Community Service Application, built in React. 
+This is a project for SER 416 at Arizona State University. It's a prototype of the Best Community Service Application, built in React and Bootstrap.
  
 To run the application
 -

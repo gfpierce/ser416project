@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Menu from "./Menu";
 
 class EventRegister extends Component {
   render() {
     return (
-        <h2>EventRegister</h2>
+      <div>
+        <Menu />
+        <h2>Details</h2>
+      </div>
     );
   }
-  
 }
 
 export default EventRegister;

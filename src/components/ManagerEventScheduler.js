@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Menu from "./Menu";
+import Footer from "./Footer";
 
 class ManagerEventScheduler extends Component {
   render() {
     return (
-        <h2>ManagerEventScheduler</h2>
+      <div>
+        <Menu />
+        <h2>Manager Equipment Reservation</h2>
+        <Footer />
+      </div>
     );
   }
-  
 }
 
 export default ManagerEventScheduler;
